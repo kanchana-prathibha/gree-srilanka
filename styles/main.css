@@ -1,0 +1,72 @@
+*{
+ margin: 0;
+}
+.nav{
+
+    background-color: rgb(247, 255, 235);
+
+}
+#navbarNav1{
+    background-color: rgb(247, 255, 235)!important;
+}
+
+/*nav-end*/
+
+/*main slider start*/
+
+.main-slider{
+    width: 100vw;
+    height: 80vh;
+
+}
+#slider-container {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Style for the individual images */
+.slider-image {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    transition: opacity 0.5s ease-in-out;
+}
+/*main slider end*/
+
+
+/*Solution bar start*/
+
+.solutions-item{
+    width: 100vw;
+    height: 16vh;
+    background-color: #20bf6b;
+
+
+}
+.solutions-bar>ul{
+    display: flex;
+    list-style:none ;
+}
+.solutions-item{
+    color: #fff200;
+/*
+    width: 40vw;
+    height: 10vh;*/
+    width: 300px;
+    height: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.solutions-item:hover{
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 0 10px rgba(4, 8, 245, 0.5);
+}
+/*Solution bar end*/
