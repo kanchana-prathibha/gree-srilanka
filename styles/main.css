@@ -44,7 +44,7 @@
 .solutions-item{
     width: 100vw;
     height: 16vh;
-    background-color: #20bf6b;
+    background-color: #6ab04c;
 
 
 }
@@ -70,3 +70,44 @@
     box-shadow: 0 0 10px rgba(4, 8, 245, 0.5);
 }
 /*Solution bar end*/
+/*footer start*/
+/* Add Bootstrap CSS here if you're using Bootstrap for other elements on your website */
+
+.footer {
+    background-color: #55efc4;
+    height: 550px;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer h3 {
+    color: #fff;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 30%; /* 16:9 aspect ratio for responsive design */
+    position: relative;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 30%;
+    width: 100%;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .footer {
+        text-align: center;
+    }
+
+    .footer h3 {
+        margin-top: 20px;
+    }
+
+    .map-responsive {
+        margin-top: 20px;
+    }
+}
