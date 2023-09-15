@@ -22,3 +22,4 @@ function nextImage() {
 showImage(currentImageIndex);
 setInterval(nextImage, interval);
 /*End Photo slider*/
+

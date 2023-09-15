@@ -1,0 +1,21 @@
+/*card header*/
+.card{
+    background-color: #dfe4ea;
+    margin-bottom: 30px;
+}
+.card-header{
+
+   font-size: 35px;
+}
+.card-body{
+    font-weight: bold;
+    background-color: #7bed9f;
+}
+.btn-primary{
+    border: none;
+    background-color: #2ed573;
+}
+.btn-primary:hover{
+    background-color: #20bf6b;
+    color: #fff200;
+}
