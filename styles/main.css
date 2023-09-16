@@ -111,3 +111,11 @@
         margin-top: 20px;
     }
 }
+.btn-primary{
+    border: none;
+    background-color: #2ed573;
+}
+.btn-primary:hover{
+    background-color: #20bf6b;
+    color: #fff200;
+}
